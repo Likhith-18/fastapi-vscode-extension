@@ -1,0 +1,74 @@
+{
+    "FastAPI App GET Route": {
+        "prefix": "fs-get",
+        "body": [
+            "@app.get(\"$1\")",
+            "def $2():",
+            "    $0"
+        ],
+        "description": "Creates a FastAPI GET route"
+    },
+    "FastAPI App POST Route": {
+        "prefix": "fs-post",
+        "body": [
+            "@app.post(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI POST route"
+    },
+    "FastAPI App PUT Route": {
+        "prefix": "fs-p-ut",
+        "body": [
+            "@app.put(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI PUT route"
+    },
+    "FastAPI App DELETE Route": {
+        "prefix": "fs-delete",
+        "body": [
+            "@app.delete(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI DELETE route"
+    },
+    "FastAPI Router GET Route": {
+        "prefix": "fs-router-get",
+        "body": [
+            "@router.get(\"$1\")",
+            "def $2():",
+            "    $0"
+        ],
+        "description": "Creates a FastAPI router GET route"
+    },
+    "FastAPI Router POST Route": {
+        "prefix": "fs-router-post",
+        "body": [
+            "@router.post(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI router POST route"
+    },
+    "FastAPI Router PUT Route": {
+        "prefix": "fs-router-put",
+        "body": [
+            "@router.put(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI router PUT route"
+    },
+    "FastAPI Router DELETE Route": {
+        "prefix": "fs-router-delete",
+        "body": [
+            "@router.delete(\"$1\")",
+            "def $2(item: $1):",
+            "    return item"
+        ],
+        "description": "Creates a FastAPI router DELETE route"
+    }
+}
