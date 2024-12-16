@@ -2,7 +2,8 @@
   "name": "fastapi-snippets-extension",
   "displayName": "Fastapi snippets extension",
   "description": "code faster with Fastapi snippets with this extension",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "publisher": "LikhithD",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -17,10 +18,9 @@
       }
     ]
   },
-  "publisher": "LikhithD",
   "repository": {
   "type": "git",
-  "url": "https://github.com/Likhith-18/fastapi-vscode-extension"
+  "url": "https://github.com/Likhith-18/fastapi-vscode-extension.git"
   },
   "keywords": [
     "fastapi",
@@ -36,9 +36,6 @@
   "bugs": {
     "url": "https://github.com/Likhith-18/fastapi-vscode-extension/issues"
   },
-  "homepage": "https://github.com/Likhith-18/fastapi-vscode-extension#readme",
-  "devDependencies": {
-    "vsce": "^1.93.0"
-  }
+  "homepage": "https://github.com/Likhith-18/fastapi-vscode-extension#readme"
 }
 

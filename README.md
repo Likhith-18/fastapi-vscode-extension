@@ -8,17 +8,17 @@ This extension includes snippets for creating FastAPI routes at both the applica
 
 ### App-level routes
 
-- `fs-get`: Scaffold a GET route.
-- `fs-post`: Scaffold a POST route.
-- `fs-put`: Scaffold a PUT route.
-- `fs-delete`: Scaffold a DELETE route.
+- `fa-get`: Scaffold a GET route.
+- `fa-post`: Scaffold a POST route.
+- `fa-put`: Scaffold a PUT route.
+- `fa-delete`: Scaffold a DELETE route.
 
 ### Router-level routes
 
-- `fs-router-get`: Scaffold a GET route in a router.
-- `fs-router-post`: Scaffold a POST route in a router.
-- `fs-router-put`: Scaffold a PUT route in a router.
-- `fs-router-delete`: Scaffold a DELETE route in a router.
+- `fa-router-get`: Scaffold a GET route in a router.
+- `fa-router-post`: Scaffold a POST route in a router.
+- `fa-router-put`: Scaffold a PUT route in a router.
+- `fa-router-delete`: Scaffold a DELETE route in a router.
 
 ### Usage
 

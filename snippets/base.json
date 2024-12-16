@@ -1,6 +1,6 @@
 {
     "Basic FastAPI Route": {
-        "prefix": "fs-main-app",
+        "prefix": "fa-main-app",
         "body": [
             "from fastapi import FastAPI",
             "",
@@ -13,7 +13,7 @@
         "description": "Creates a basic FastAPI route"
     },
     "FastAPI App GET Route": {
-        "prefix": "fs-get",
+        "prefix": "fa-get",
         "body": [
             "@app.get(\"$1\")",
             "async def $2():",
@@ -22,7 +22,7 @@
         "description": "Creates a FastAPI GET route"
     },
     "FastAPI App POST Route": {
-        "prefix": "fs-post",
+        "prefix": "fa-post",
         "body": [
             "@app.post(\"$1\")",
             "async def $2(item: $1):",
@@ -31,7 +31,7 @@
         "description": "Creates a FastAPI POST route"
     },
     "FastAPI App PUT Route": {
-        "prefix": "fs-p-ut",
+        "prefix": "fa-p-ut",
         "body": [
             "@app.put(\"$1\")",
             "async def $2(item: $1):",
@@ -40,7 +40,7 @@
         "description": "Creates a FastAPI PUT route"
     },
     "FastAPI App DELETE Route": {
-        "prefix": "fs-delete",
+        "prefix": "fa-delete",
         "body": [
             "@app.delete(\"$1\")",
             "async def $2(item: $1):",
@@ -49,7 +49,7 @@
         "description": "Creates a FastAPI DELETE route"
     },
     "FastAPI Router": {
-        "prefix": "fs-router",
+        "prefix": "fa-router",
         "body": [
             "from fastapi import APIRouter",
             "",
@@ -63,7 +63,7 @@
         "description": "Creates a FastAPI router with GET and POST routes"
     },
     "FastAPI Router GET Route": {
-        "prefix": "fs-router-get",
+        "prefix": "fa-router-get",
         "body": [
             "@router.get(\"$1\")",
             "async def $2():",
@@ -72,7 +72,7 @@
         "description": "Creates a FastAPI router GET route"
     },
     "FastAPI Router POST Route": {
-        "prefix": "fs-router-post",
+        "prefix": "fa-router-post",
         "body": [
             "@router.post(\"$1\")",
             "async def $2(item: $1):",
@@ -81,7 +81,7 @@
         "description": "Creates a FastAPI router POST route"
     },
     "FastAPI Router PUT Route": {
-        "prefix": "fs-router-put",
+        "prefix": "fa-router-put",
         "body": [
             "@router.put(\"$1\")",
             "async def $2(item: $1):",
@@ -90,7 +90,7 @@
         "description": "Creates a FastAPI router PUT route"
     },
     "FastAPI Router DELETE Route": {
-        "prefix": "fs-router-delete",
+        "prefix": "fa-router-delete",
         "body": [
             "@router.delete(\"$1\")",
             "async def $2(item: $1):",
