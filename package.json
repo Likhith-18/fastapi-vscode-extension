@@ -2,7 +2,7 @@
   "name": "fastapi-snippets-extension",
   "displayName": "Fastapi snippets extension",
   "description": "code faster with Fastapi snippets with this extension",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "publisher": "LikhithD",
   "engines": {
     "vscode": "^1.96.0"

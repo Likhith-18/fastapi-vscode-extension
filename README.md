@@ -8,19 +8,25 @@ This extension includes snippets for creating FastAPI routes at both the applica
 
 ### App-level routes
 
-- `fa-get`: Scaffold a GET route.
-- `fa-post`: Scaffold a POST route.
-- `fa-put`: Scaffold a PUT route.
-- `fa-delete`: Scaffold a DELETE route.
+- `fs-main-app` : Create FastAPI app
+- `fs-get`: Scaffold a GET route.
+- `fs-post`: Scaffold a POST route.
+- `fs-put`: Scaffold a PUT route.
+- `fs-delete`: Scaffold a DELETE route.
 
 ### Router-level routes
 
-- `fa-router-get`: Scaffold a GET route in a router.
-- `fa-router-post`: Scaffold a POST route in a router.
-- `fa-router-put`: Scaffold a PUT route in a router.
-- `fa-router-delete`: Scaffold a DELETE route in a router.
+- `fs-router-app` : Create FastAPI app
+- `fs-router-get`: Scaffold a GET route in a router.
+- `fs-router-post`: Scaffold a POST route in a router.
+- `fs-router-put`: Scaffold a PUT route in a router.
+- `fs-router-delete`: Scaffold a DELETE route in a router.
 
 ### Usage
+
+You can just type fsma to get `fs-main-app` in your suggestions, the trick is to type letters after each - with fs in the prefix which makes it easier to find the correct suggestions.
+Example:
+For `fs-router-get` you can use fsrg and press enter to get the snippet.
 
 #### App-level GET route
 
