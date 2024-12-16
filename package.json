@@ -16,5 +16,30 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "publisher": "LikhithD",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Likhith-18/fastapi-vscode-extension"
+  },
+  "keywords": [
+    "fastapi",
+    "snippets",
+    "python",
+    "vscode"
+  ],
+  "author": {
+    "name": "Likhith D",
+    "email": "dlikhith81@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Likhith-18/fastapi-vscode-extension/issues"
+  },
+  "homepage": "https://github.com/Likhith-18/fastapi-vscode-extension#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "vsce": "^1.93.0"
   }
 }
+

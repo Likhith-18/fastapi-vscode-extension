@@ -1,65 +1,61 @@
-# fastapi-snippets-extension README
+# FastAPI Snippets Extension
 
-This is the README for your extension "fastapi-snippets-extension". After writing up a brief description, we recommend including the following sections.
+Welcome to the FastAPI Snippets Extension for Visual Studio Code! This extension provides handy code snippets for FastAPI, making it easier to scaffold routes quickly and efficiently in your Python projects.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This extension includes snippets for creating FastAPI routes at both the application level and the router level. The available snippets are:
 
-For example if there is an image subfolder under your extension project workspace:
+### App-level routes
 
-\!\[feature X\]\(images/feature-x.png\)
+- `fs-get`: Scaffold a GET route.
+- `fs-post`: Scaffold a POST route.
+- `fs-put`: Scaffold a PUT route.
+- `fs-delete`: Scaffold a DELETE route.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Router-level routes
 
-## Requirements
+- `fs-router-get`: Scaffold a GET route in a router.
+- `fs-router-post`: Scaffold a POST route in a router.
+- `fs-router-put`: Scaffold a PUT route in a router.
+- `fs-router-delete`: Scaffold a DELETE route in a router.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+### Usage
 
-## Extension Settings
+#### App-level GET route
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+To create a GET route at the app level:
 
-For example:
+```python
+@app.get("/path")
+def method(request):
+    pass
+```
 
-This extension contributes the following settings:
+### Router-level POST route
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+To create a POST route in a router:
 
-## Known Issues
+```python
+@router.post("/path")
+def method(request):
+    pass
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Simply type the prefix (e.g., fastapi-app-get) and the corresponding snippet will be inserted. Use Tab to navigate through the placeholders and fill in the details.
 
-## Release Notes
+### Requirements
 
-Users appreciate release notes as you update your extension.
+There are no special requirements or dependencies for this extension. Just install it and start using the snippets in your Python files.
+Extension Settings
 
-### 1.0.0
+This extension does not add any VS Code settings.
 
-Initial release of ...
+### Known Issues
 
-### 1.0.1
+There are no known issues at this time. If you encounter any problems, please report them on the GitHub issues page.
+Release Notes
+1.0.0
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+    Initial release of FastAPI Snippets Extension.
+    Added snippets for GET, POST, PUT, and DELETE routes at both the app level and router level.
