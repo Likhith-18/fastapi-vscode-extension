@@ -53,7 +53,7 @@ This extension does not add any VS Code settings.
 
 ### Known Issues
 
-There are no known issues at this time. If you encounter any problems, please report them on the GitHub issues page.
+There are no known issues at this time. If you encounter any problems, please report them on the GitHub [issues page](https://github.com/Likhith-18/fastapi-vscode-extension/issues).
 Release Notes
 1.0.0
 
