@@ -58,7 +58,7 @@
             "@router.get(\"/$1\")",
             "async def $2():",
             "    $0",
-            "",
+            ""
         ],
         "description": "Creates a FastAPI router with GET and POST routes"
     },
